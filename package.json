@@ -1,0 +1,42 @@
+{
+  "name": "wanted-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/app.js"
+  },
+  "keywords": [],
+  "author": "haejoong kim",
+  "license": "ISC",
+  "_moduleAliases": {
+    "@controllers": "dist/controllers",
+    "@repositories": "dist/repositories",
+    "@utils": "dist/utils",
+    "@services": "dist/services",
+    "@routes": "dist/routes"
+  },
+  "dependencies": {
+    "ajv": "^8.11.0",
+    "dotenv": "^16.0.1",
+    "errorhandler": "^1.5.1",
+    "express": "^4.18.1",
+    "http-errors": "^2.0.0",
+    "mocha": "^10.0.0",
+    "module-alias": "^2.2.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "@types/ajv": "^1.0.0",
+    "@types/chai": "^4.3.1",
+    "@types/chai-http": "^4.2.0",
+    "@types/errorhandler": "^1.5.0",
+    "@types/express": "^4.17.13",
+    "@types/http-errors": "^1.8.2",
+    "@types/mocha": "^9.1.1",
+    "@types/moment": "^2.13.0",
+    "@types/mysql": "^2.15.21",
+    "chai": "^4.3.6",
+    "typescript": "^4.7.4"
+  }
+}
